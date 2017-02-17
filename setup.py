@@ -7,7 +7,7 @@ def readme():
 
 setup(
 	name='pythonPlayGround',
-	version='0.2',
+	version='0.3',
 	description='play ground for python',
 	#long_description='local test package',
 	long_description=readme(),
@@ -30,6 +30,8 @@ setup(
 	],
 	dependency_links=[], #Packages Not On PyPI
 	include_package_data=True,
+	test_suite='nose.collector',
+	tests_require=['nose'],
 	zip_safe=False)
 
 
