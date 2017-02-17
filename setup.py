@@ -7,7 +7,7 @@ def readme():
 
 setup(
 	name='pythonPlayGround',
-	version='0.1',
+	version='0.2',
 	description='play ground for python',
 	#long_description='local test package',
 	long_description=readme(),
