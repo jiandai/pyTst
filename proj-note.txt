@@ -1,1 +1,4 @@
-20180218,jian,add branch test and remote branch test_on_hub
+20180218,1,jian,add branch test and remote branch test_on_hub
+20180218,2,jian,remote add to github as pyTst
+20180218,3,jian,add branch dev
+20180218,4,jian,merge test, dev and master
